@@ -4,6 +4,7 @@
 <h4>NIM : 254107020151<h4>
 <h4>Kelas : TI-1G<h4>
 
+
 ## 1.10. Latihan
 
 ### 1.10.1. Latihan Konseptual
