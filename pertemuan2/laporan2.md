@@ -297,13 +297,15 @@ Gunakan df -h lalu awk untuk menampilkan filesystem yang penggunaan disk di atas
 
 ### Jawaban Latihan 2.E
 <img src="Screenshot (248).png" width="100%">
-
+Output hanya menampilkan header karena tidak ada filesystem yang penggunaannya melebihi 70%.
 
 ### Pertanyaan Latihan 2.F
 Jalankan sleep 600 &. Temukan PID-nya dengan ps. Hentikan dengan SIGTERM. Jelaskan beda SIGTERM vs SIGKILL.
 
 ### Jawaban Latihan 2.F
 <img src="Screenshot (250).png" width="100%">
+SIGTERM (15): Meminta proses berhenti secara baik (graceful), proses bisa menyimpan data dulu sebelum berhenti
+SIGKILL (9): Memaksa proses berhenti langsung (force kill), proses tidak sempat menyimpan data dan tidak bisa diabaikan
 
 ### Pertanyaan Latihan 2.G
 Gunakan systemctl –failed. Jika tidak ada yang gagal, pilih satu service aktif (misal ssh) dan tampilkan status serta 30 baris log terakhirnya.
