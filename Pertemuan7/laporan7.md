@@ -98,7 +98,7 @@
 <img src="Screenshot (658).png" width="100%">
 
 2. Uji completion file:
-<img sr
+<img src="Screenshot (781).png" width="100%">
 
 3. Jalankan beberapa perintah sederhana:
 <img src="Screenshot (659).png" width="100%">
